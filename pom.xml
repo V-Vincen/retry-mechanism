@@ -36,18 +36,18 @@
             <artifactId>spring-retry</artifactId>
             <version>1.2.5.RELEASE</version>
         </dependency>
+        <!-- aspectjweaver -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.5</version>
+        </dependency>
 
         <!-- guava-retrying -->
         <dependency>
             <groupId>com.github.rholder</groupId>
             <artifactId>guava-retrying</artifactId>
             <version>2.0.0</version>
-        </dependency>
-        <!-- aspectjweaver -->
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.5</version>
         </dependency>
 
         <!-- hutool -->
@@ -56,13 +56,6 @@
             <artifactId>hutool-all</artifactId>
             <version>5.3.2</version>
         </dependency>
-
-<!--        &lt;!&ndash; fastjson &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba</groupId>-->
-<!--            <artifactId>fastjson</artifactId>-->
-<!--            <version>1.2.62</version>-->
-<!--        </dependency>-->
 
         <dependency>
             <groupId>junit</groupId>
